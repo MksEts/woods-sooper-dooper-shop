@@ -13,18 +13,51 @@
 <!-- Wandkeeper Magazin - quarterly --> 
 
 <body>
+    <header>
+        <h1>Sign up for the Wandkeeper Magazin</h1>
+        <p>The smart wizards choice!</p>
+    </header>
+
     <form action="https://formdump.codeinstitute.net">
 
         <fieldset>
             <legend>Your Information</legend>
             <div>
                 <div>
+                    <label for="house">House</label>
+                    <input type="text" name="house" id="house" placeholder="Your House" required>
+                </div>
+                <div>
                     <label for="name">Name</label>
-                    <input id="name" type="text" name="name" placeholder="Your name" required>
+                    <input id="name" type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your E-Mail" required>
                 </div>
             </div>
         </fieldset>
 
+        <fieldset>
+            <legend>Something</legend>
+            <div>
+                <div>
+                    <p>Physical or electronic paper</p>
+
+                    <label for="physical">Physical edition:</label>
+                    <input type="radio" name="edition" id="physical" required>
+                    <label for="electronic">Electronic edition:</label>
+                    <input type="radio" name="edition" id="electronic" required>
+                </div>
+                <div>
+                    <label for="donation">Your generous Donation:</label>
+                    <input type="number" name="donation" id="donation" placeholder="galleon coins">
+                </div>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Confirm Subscription">
+        <input type="reset" value="Reset Form">
     </form>    
 </body>
 </html>
