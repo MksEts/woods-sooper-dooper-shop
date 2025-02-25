@@ -1,6 +1,7 @@
 /*
-header {
-    background-image: url(../images/hogwarts-castle-skyline-night.jpg);
+background-image: url(../images/hogwarts-castle-skyline-night.jpg);
+*/
+body {
+    background-color: burlywood;
     background-size: cover;
 }
-*/
