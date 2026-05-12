@@ -1,7 +1,7 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-/* CSS variables */
+/* css variables */
 :root {
     --primary-font: "Inter", sans-serif;
     --secondery-font: "Macondo", cursive;
@@ -11,11 +11,18 @@
     --highlight-color-light: #f7a16f /* no idea, tint 20% */;
 }
 
+/* Global css styles */
 body{
     font-family: var(--primary-font);
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: var(--secondery-font);
     color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
