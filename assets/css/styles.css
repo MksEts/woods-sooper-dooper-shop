@@ -27,6 +27,11 @@ h3 {
     color: var(--highlight-color);
 }
 
+.heading-carousel {
+    font-size: 200%;
+}
+
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -39,4 +44,13 @@ h3 {
 #navbar .logo-text {
     font-family: var(--secondery-font);
     font-size: 123%;
+}
+
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+
+    .carousel-caption { bottom: 1%; }
+    
+    
 }
