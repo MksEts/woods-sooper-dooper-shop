@@ -17,11 +17,15 @@ body{
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--secondery-font);
     color: var(--primary-color);
     text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--secondery-font);
+    color: var(--primary-color);
 }
 
 .sub-heading-color {
@@ -70,10 +74,35 @@ h3 {
     margin-bottom: 1rem;
 }
 
+#products h3 {
+    font-family: var(--secondery-font);
+    text-transform: uppercase;
+}
+
+
 #products .card:hover {
     transform: scale(1.05);
 }
 
+/* coldmirror video */
+#ad h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* footer */
+#footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#footer h2 {
+    color: white;
+}
+
+#footer h3 {
+    color: var(--highlight-color-light);
+}
 
 /* For small screens */
 @media screen and (max-width: 768px) {
@@ -82,5 +111,24 @@ h3 {
 
     #products .card {text-align: center;}
     
-    
+    /* code from https://www.digital.ink/blog/mobile-responsive-youtube-embeds/ */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+} 
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 }
