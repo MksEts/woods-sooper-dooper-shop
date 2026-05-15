@@ -28,6 +28,10 @@ h3 {
     color: var(--highlight-color);
 }
 
+.sub-heading-color-1 {
+    color: var(--secondary-color);
+}
+
 .heading-carousel {
     font-size: 200%;
 }
@@ -57,10 +61,26 @@ h3 {
 }
 
 
+/* products section */
+#products .card {
+    border: none;
+}
+
+#products h2 {
+    margin-bottom: 1rem;
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+}
+
+
 /* For small screens */
 @media screen and (max-width: 768px) {
 
     .carousel-caption { bottom: 1%; }
+
+    #products .card {text-align: center;}
     
     
 }
