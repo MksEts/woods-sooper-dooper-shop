@@ -98,10 +98,27 @@ h3 {
 
 #footer h2 {
     color: white;
+    margin-bottom: 1rem;
 }
 
 #footer h3 {
     color: var(--highlight-color-light);
+}
+
+#footer i {
+    color: var(--highlight-color-light);
+    font-size: 1.2rem;
+    margin-right: 9px;
+}
+
+#footer a>i {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#footer .table-dark * {
+    background-color: transparent;
 }
 
 /* For small screens */
