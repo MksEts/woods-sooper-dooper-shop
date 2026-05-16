@@ -93,6 +93,12 @@ h3 {
 #shop h2 {
     margin-bottom: 1rem;
 }
+
+#shop .card {
+    border: none;
+}
+
+
 /*
 #shop shop-cards {
     margin: ;
