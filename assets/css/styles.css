@@ -155,6 +155,11 @@ h3 {
     background-color: transparent;
 }
 
+
+/* i thought max-width was a lot smarter, 
+but given that default for bootstrap is xs secreens and works up, it's suboptimal.
+Works fine for now */
+/* smaller screens */
 @media screen and (max-width: 576px){
     .heading-carousel {
         font-size: 110%;
@@ -168,30 +173,29 @@ h3 {
 /* For small screens */
 @media screen and (max-width: 768px) {
 
+    /* Carousel text position */
     .carousel-caption { bottom: 1%; }
 
-    
-
+    /* products secetion */
     #products .card {text-align: center;}
     
     /* code from https://www.digital.ink/blog/mobile-responsive-youtube-embeds/ */
-.embed-container { 
-    position: relative; 
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-} 
+    /* YouTube video container */
+    .embed-container { 
+        position: relative; 
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    } 
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
