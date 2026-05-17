@@ -49,6 +49,32 @@ h3 {
     margin-bottom: 2rem;
 }
 
+/* button */
+.booking-button {
+    border: 3px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
+}
+
+.booking-button:hover {
+    border: 3px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.booking-button-borderline {
+    border: 3px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.booking-button-borderline:hover {
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
 
 /* Navbar */
 #navbar {
@@ -79,7 +105,6 @@ h3 {
     text-transform: uppercase;
 }
 
-
 #products .card:hover {
     transform: scale(1.05);
 }
@@ -97,13 +122,6 @@ h3 {
 #shop .card {
     border: none;
 }
-
-
-/*
-#shop shop-cards {
-    margin: ;
-}
-    */
 
 
 /* footer */
