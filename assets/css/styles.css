@@ -155,10 +155,22 @@ h3 {
     background-color: transparent;
 }
 
+@media screen and (max-width: 576px){
+    .heading-carousel {
+        font-size: 110%;
+    }
+
+    .p-carousel {
+        font-size: 60%;
+    }
+}
+
 /* For small screens */
 @media screen and (max-width: 768px) {
 
     .carousel-caption { bottom: 1%; }
+
+    
 
     #products .card {text-align: center;}
     
